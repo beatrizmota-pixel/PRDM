@@ -1,3 +1,3 @@
 # PRDM
 Códigos de PRDM25
-Beatriz esteve aqui
+Dupla: Beatriz Mota e Carina Queiroz
