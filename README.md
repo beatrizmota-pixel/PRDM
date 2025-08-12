@@ -1,3 +1,2 @@
-# PRDM
-Códigos de PRDM25
-Dupla: Beatriz Mota e Carina Queiroz
+# PRDM25
+Códigos_Dupla: Beatriz Mota e Carina Queiroz
