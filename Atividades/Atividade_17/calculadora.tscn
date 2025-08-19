@@ -7,6 +7,10 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = -1.0
+offset_top = 1.0
+offset_right = -1.0
+offset_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 tooltip_text = "edigite um num"
@@ -22,19 +26,18 @@ placeholder_text = "Digite num1"
 
 [node name="resultado" type="Label" parent="."]
 layout_mode = 0
-offset_left = 50.0
-offset_top = 143.0
-offset_right = 234.0
-offset_bottom = 193.0
-text = "oie"
+offset_left = 222.0
+offset_top = 24.0
+offset_right = 406.0
+offset_bottom = 74.0
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 0
-offset_left = 259.0
-offset_top = 137.0
-offset_right = 313.0
-offset_bottom = 190.0
-text = "xxx"
+offset_left = 47.0
+offset_top = 196.0
+offset_right = 118.0
+offset_bottom = 249.0
+text = "Calcular"
 
 [node name="numero2" type="TextEdit" parent="."]
 offset_left = 47.0
@@ -45,14 +48,18 @@ placeholder_text = "Digite num2"
 
 [node name="OptionButton" type="OptionButton" parent="."]
 layout_mode = 0
-offset_left = 278.0
-offset_top = 41.0
-offset_right = 310.0
-offset_bottom = 61.0
-item_count = 2
+offset_left = 47.0
+offset_top = 140.0
+offset_right = 183.0
+offset_bottom = 171.0
+item_count = 4
 popup/item_0/text = "Soma"
 popup/item_0/id = 0
-popup/item_1/text = "Subtrtação"
+popup/item_1/text = "Subtração"
 popup/item_1/id = 1
+popup/item_2/text = "Multiplicação"
+popup/item_2/id = 2
+popup/item_3/text = "Divisão"
+popup/item_3/id = 3
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
