@@ -10,7 +10,6 @@ config_version=5
 
 [application]
 
-config/name="Atividades_PRDM"
-run/main_scene="res://Atividade_2/node_2d.tscn"
+config/name="Atividade_2"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
