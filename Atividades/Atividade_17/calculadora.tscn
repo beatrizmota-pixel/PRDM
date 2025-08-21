@@ -7,10 +7,10 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -1.0
-offset_top = 1.0
-offset_right = -1.0
-offset_bottom = 1.0
+offset_left = 29.0
+offset_top = 55.0
+offset_right = -754.0
+offset_bottom = -375.0
 grow_horizontal = 2
 grow_vertical = 2
 tooltip_text = "edigite um num"
@@ -22,36 +22,59 @@ offset_left = 46.0
 offset_top = 25.0
 offset_right = 173.0
 offset_bottom = 66.0
-placeholder_text = "Digite num1"
+placeholder_text = "Digite num1✔"
 
 [node name="resultado" type="Label" parent="."]
 layout_mode = 0
-offset_left = 222.0
-offset_top = 24.0
-offset_right = 406.0
-offset_bottom = 74.0
+offset_left = 60.0
+offset_top = 165.0
+offset_right = 294.0
+offset_bottom = 215.0
+text = "<O resultado aparecerá aqui.>"
+
+[node name="resultado" type="Label" parent="resultado"]
+offset_left = 132.0
+offset_top = -137.0
+offset_right = 329.0
+offset_bottom = -110.0
+text = "Escolha a operação:"
+
+[node name="resultado2" type="Label" parent="resultado"]
+offset_left = -19.0
+offset_top = -187.0
+offset_right = 249.0
+offset_bottom = -160.0
+text = "=====Calculadora no Godot======"
+
+[node name="resultado" type="Label" parent="resultado/resultado2"]
+offset_left = 132.0
+offset_top = -137.0
+offset_right = 329.0
+offset_bottom = -110.0
+text = "Escolha a operação:"
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 0
-offset_left = 47.0
-offset_top = 196.0
-offset_right = 118.0
-offset_bottom = 249.0
+offset_left = 230.0
+offset_top = 94.0
+offset_right = 301.0
+offset_bottom = 147.0
 text = "Calcular"
 
 [node name="numero2" type="TextEdit" parent="."]
+layout_mode = 0
 offset_left = 47.0
 offset_top = 75.0
 offset_right = 174.0
 offset_bottom = 116.0
-placeholder_text = "Digite num2"
+placeholder_text = "Digite num2✔"
 
 [node name="OptionButton" type="OptionButton" parent="."]
 layout_mode = 0
-offset_left = 47.0
-offset_top = 140.0
-offset_right = 183.0
-offset_bottom = 171.0
+offset_left = 198.0
+offset_top = 54.0
+offset_right = 334.0
+offset_bottom = 85.0
 item_count = 4
 popup/item_0/text = "Soma"
 popup/item_0/id = 0
