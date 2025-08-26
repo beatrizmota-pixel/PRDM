@@ -1,3 +1,4 @@
+
 extends Control
 
 
@@ -16,4 +17,4 @@ func _on_button_pressed() -> void:
 		$resultado.text = "O resultado é: " + str(int($numero1.text)/ int($numero2.text))
 		
 	else:
-		$resultado.text = "Selecione apenas números inteiros."
+		$resultado.text = "Digite apenas números inteiros e não esqueça de selecionar a operação."

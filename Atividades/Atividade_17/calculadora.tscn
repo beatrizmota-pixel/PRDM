@@ -26,13 +26,14 @@ placeholder_text = "Digite num1✔"
 
 [node name="resultado" type="Label" parent="."]
 layout_mode = 0
-offset_left = 60.0
+offset_left = 45.0
 offset_top = 165.0
-offset_right = 294.0
+offset_right = 279.0
 offset_bottom = 215.0
 text = "<O resultado aparecerá aqui.>"
 
 [node name="resultado" type="Label" parent="resultado"]
+layout_mode = 0
 offset_left = 132.0
 offset_top = -137.0
 offset_right = 329.0
@@ -40,13 +41,15 @@ offset_bottom = -110.0
 text = "Escolha a operação:"
 
 [node name="resultado2" type="Label" parent="resultado"]
-offset_left = -19.0
-offset_top = -187.0
-offset_right = 249.0
-offset_bottom = -160.0
+layout_mode = 0
+offset_left = -10.0
+offset_top = -186.0
+offset_right = 258.0
+offset_bottom = -159.0
 text = "=====Calculadora no Godot======"
 
 [node name="resultado" type="Label" parent="resultado/resultado2"]
+layout_mode = 0
 offset_left = 132.0
 offset_top = -137.0
 offset_right = 329.0
