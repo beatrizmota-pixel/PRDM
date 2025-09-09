@@ -12,14 +12,20 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = 7.0
+offset_top = -1.0
+offset_right = -267.0
+offset_bottom = -103.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_oggn2")
 
 [node name="TextureProgressBar" type="TextureProgressBar" parent="."]
 layout_mode = 0
-offset_right = 640.0
-offset_bottom = 640.0
+offset_left = 33.0
+offset_top = 5.0
+offset_right = 673.0
+offset_bottom = 645.0
 value = 75.0
 fill_mode = 4
 texture_under = ExtResource("1_ynw67")
@@ -36,6 +42,7 @@ label_settings = SubResource("LabelSettings_8tmlu")
 
 [node name="Timer" type="Timer" parent="."]
 wait_time = 0.5
+autostart = true
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 0
@@ -45,5 +52,6 @@ offset_right = 661.0
 offset_bottom = 584.0
 text = "fhf"
 
+[connection signal="value_changed" from="TextureProgressBar" to="." method="_on_texture_progress_bar_value_changed"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

@@ -41,20 +41,15 @@ offset_bottom = -110.0
 text = "Escolha a operação:"
 
 [node name="resultado2" type="Label" parent="resultado"]
-layout_mode = 0
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.242
+anchor_bottom = 0.242
 offset_left = -10.0
-offset_top = -186.0
+offset_top = -198.1
 offset_right = 258.0
-offset_bottom = -159.0
+offset_bottom = -171.1
 text = "=====Calculadora no Godot======"
-
-[node name="resultado" type="Label" parent="resultado/resultado2"]
-layout_mode = 0
-offset_left = 132.0
-offset_top = -137.0
-offset_right = 329.0
-offset_bottom = -110.0
-text = "Escolha a operação:"
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 0
