@@ -51,12 +51,12 @@ offset_right = 258.0
 offset_bottom = -171.1
 text = "=====Calculadora no Godot======"
 
-[node name="Button" type="Button" parent="."]
+[node name="Button" type="Button" parent="resultado/resultado2"]
 layout_mode = 0
-offset_left = 230.0
-offset_top = 94.0
-offset_right = 301.0
-offset_bottom = 147.0
+offset_left = 195.0
+offset_top = 115.0
+offset_right = 266.0
+offset_bottom = 168.0
 text = "Calcular"
 
 [node name="numero2" type="TextEdit" parent="."]
@@ -83,4 +83,4 @@ popup/item_2/id = 2
 popup/item_3/text = "Divisão"
 popup/item_3/id = 3
 
-[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="resultado/resultado2/Button" to="." method="_on_button_pressed"]
