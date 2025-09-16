@@ -1,0 +1,65 @@
+[gd_scene load_steps=2 format=3 uid="uid://d0eb0b2w5tsy6"]
+
+[ext_resource type="Script" uid="uid://3qytraw5qlaf" path="res://Atividade_19/formulário.gd" id="1_olbvy"]
+
+[node name="Formulário" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -10.0
+offset_right = -10.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_olbvy")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 14.0
+offset_top = 2.0
+offset_right = 1083.0
+offset_bottom = 311.0
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Nome" type="Label" parent="VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "nome"
+
+[node name="tNOme" type="TextEdit" parent="VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 40
+placeholder_text = "Digite aqui seu nome."
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Idade2" type="Label" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "idade"
+
+[node name="tIdade" type="TextEdit" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 40
+placeholder_text = "Digite aqui sua idade."
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 40
+text = "Submeter"
+
+[node name="Resultado" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 40
+text = "teste"
+
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]
