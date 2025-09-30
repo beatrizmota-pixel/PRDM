@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bfome5yb2o22o"]
+
+[ext_resource type="Texture2D" uid="uid://dxbemt4i4ys4l" path="res://Atividade_21/star.png" id="1_f46hw"]
+
+[node name="ParticleSystems" type="Node2D"]
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+position = Vector2(542, 58)
+texture = ExtResource("1_f46hw")
+scale_amount_min = 0.1
+scale_amount_max = 0.1
