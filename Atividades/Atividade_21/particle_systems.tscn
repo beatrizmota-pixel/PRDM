@@ -1,11 +1,23 @@
-[gd_scene load_steps=2 format=3 uid="uid://bfome5yb2o22o"]
+[gd_scene load_steps=3 format=3 uid="uid://bfome5yb2o22o"]
 
 [ext_resource type="Texture2D" uid="uid://dxbemt4i4ys4l" path="res://Atividade_21/star.png" id="1_f46hw"]
+
+[sub_resource type="Curve" id="Curve_f46hw"]
+_limits = [-200.0, 200.0, 0.0, 1.0]
+_data = [Vector2(0, 11.236), 0.0, 0.0, 0, 0, Vector2(1, 200), 560.0, 0.0, 0, 0]
+point_count = 2
 
 [node name="ParticleSystems" type="Node2D"]
 
 [node name="CPUParticles2D" type="CPUParticles2D" parent="."]
-position = Vector2(542, 58)
+position = Vector2(506, 276)
 texture = ExtResource("1_f46hw")
-scale_amount_min = 0.1
-scale_amount_max = 0.1
+emission_shape = 1
+emission_sphere_radius = 1.0
+gravity = Vector2(0, 0)
+radial_accel_min = 100.0
+radial_accel_max = 100.0
+radial_accel_curve = SubResource("Curve_f46hw")
+scale_amount_min = 0.05
+scale_amount_max = 0.05
+color = Color(0.85098, 0.741176, 0.235294, 0.486275)
