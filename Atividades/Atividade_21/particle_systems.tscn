@@ -4,13 +4,13 @@
 
 [sub_resource type="Curve" id="Curve_f46hw"]
 _limits = [-200.0, 200.0, 0.0, 1.0]
-_data = [Vector2(0, 11.236), 0.0, 0.0, 0, 0, Vector2(1, 200), 560.0, 0.0, 0, 0]
+_data = [Vector2(0, 11.236), 0.0, 188.764, 0, 1, Vector2(1, 200), 188.764, 0.0, 1, 0]
 point_count = 2
 
 [node name="ParticleSystems" type="Node2D"]
 
 [node name="CPUParticles2D" type="CPUParticles2D" parent="."]
-position = Vector2(506, 276)
+position = Vector2(496, 251)
 texture = ExtResource("1_f46hw")
 emission_shape = 1
 emission_sphere_radius = 1.0
