@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://bfome5yb2o22o"]
 
-[ext_resource type="Texture2D" uid="uid://dxbemt4i4ys4l" path="res://Atividade_21/star.png" id="1_f46hw"]
+[ext_resource type="Texture2D" uid="uid://8rpmlgevbxdf" path="res://Atividade_21/sparkle.png" id="1_f46hw"]
 
 [sub_resource type="Curve" id="Curve_f46hw"]
 _limits = [-200.0, 200.0, 0.0, 1.0]
@@ -9,9 +9,10 @@ point_count = 2
 
 [node name="ParticleSystems" type="Node2D"]
 
-[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
-position = Vector2(496, 251)
+[node name="particula1" type="CPUParticles2D" parent="."]
+position = Vector2(481, 261)
 texture = ExtResource("1_f46hw")
+explosiveness = 1.0
 emission_shape = 1
 emission_sphere_radius = 1.0
 gravity = Vector2(0, 0)
@@ -20,4 +21,120 @@ radial_accel_max = 100.0
 radial_accel_curve = SubResource("Curve_f46hw")
 scale_amount_min = 0.05
 scale_amount_max = 0.05
-color = Color(0.85098, 0.741176, 0.235294, 0.486275)
+
+[node name="particula2" type="CPUParticles2D" parent="."]
+position = Vector2(469, 269)
+texture = ExtResource("1_f46hw")
+explosiveness = 1.0
+emission_shape = 1
+emission_sphere_radius = 1.0
+gravity = Vector2(0, 0)
+radial_accel_min = 100.0
+radial_accel_max = 100.0
+radial_accel_curve = SubResource("Curve_f46hw")
+scale_amount_min = 0.05
+scale_amount_max = 0.05
+
+[node name="particula3" type="CPUParticles2D" parent="."]
+position = Vector2(469, 284)
+texture = ExtResource("1_f46hw")
+explosiveness = 1.0
+emission_shape = 1
+emission_sphere_radius = 1.0
+gravity = Vector2(0, 0)
+radial_accel_min = 100.0
+radial_accel_max = 100.0
+radial_accel_curve = SubResource("Curve_f46hw")
+scale_amount_min = 0.05
+scale_amount_max = 0.05
+
+[node name="particula4" type="CPUParticles2D" parent="."]
+position = Vector2(477, 295)
+texture = ExtResource("1_f46hw")
+explosiveness = 1.0
+emission_shape = 1
+emission_sphere_radius = 1.0
+gravity = Vector2(0, 0)
+radial_accel_min = 100.0
+radial_accel_max = 100.0
+radial_accel_curve = SubResource("Curve_f46hw")
+scale_amount_min = 0.05
+scale_amount_max = 0.05
+
+[node name="particula5" type="CPUParticles2D" parent="."]
+position = Vector2(490, 298)
+texture = ExtResource("1_f46hw")
+explosiveness = 1.0
+emission_shape = 1
+emission_sphere_radius = 1.0
+gravity = Vector2(0, 0)
+radial_accel_min = 100.0
+radial_accel_max = 100.0
+radial_accel_curve = SubResource("Curve_f46hw")
+scale_amount_min = 0.05
+scale_amount_max = 0.05
+
+[node name="particula6" type="CPUParticles2D" parent="."]
+position = Vector2(507, 296)
+texture = ExtResource("1_f46hw")
+explosiveness = 1.0
+emission_shape = 1
+emission_sphere_radius = 1.0
+gravity = Vector2(0, 0)
+radial_accel_min = 100.0
+radial_accel_max = 100.0
+radial_accel_curve = SubResource("Curve_f46hw")
+scale_amount_min = 0.05
+scale_amount_max = 0.05
+
+[node name="particula7" type="CPUParticles2D" parent="."]
+position = Vector2(513, 287)
+texture = ExtResource("1_f46hw")
+explosiveness = 1.0
+emission_shape = 1
+emission_sphere_radius = 1.0
+gravity = Vector2(0, 0)
+radial_accel_min = 100.0
+radial_accel_max = 100.0
+radial_accel_curve = SubResource("Curve_f46hw")
+scale_amount_min = 0.05
+scale_amount_max = 0.05
+
+[node name="particula8" type="CPUParticles2D" parent="."]
+position = Vector2(515, 274)
+texture = ExtResource("1_f46hw")
+explosiveness = 1.0
+emission_shape = 1
+emission_sphere_radius = 1.0
+gravity = Vector2(0, 0)
+radial_accel_min = 100.0
+radial_accel_max = 100.0
+radial_accel_curve = SubResource("Curve_f46hw")
+scale_amount_min = 0.05
+scale_amount_max = 0.05
+
+[node name="particula9" type="CPUParticles2D" parent="."]
+position = Vector2(507, 263)
+texture = ExtResource("1_f46hw")
+explosiveness = 1.0
+emission_shape = 1
+emission_sphere_radius = 1.0
+gravity = Vector2(0, 0)
+radial_accel_min = 100.0
+radial_accel_max = 100.0
+radial_accel_curve = SubResource("Curve_f46hw")
+scale_amount_min = 0.05
+scale_amount_max = 0.05
+
+[node name="particula10" type="CPUParticles2D" parent="."]
+position = Vector2(494, 256)
+texture = ExtResource("1_f46hw")
+explosiveness = 1.0
+emission_shape = 1
+emission_sphere_radius = 1.0
+gravity = Vector2(0, 0)
+radial_accel_min = 100.0
+radial_accel_max = 100.0
+radial_accel_curve = SubResource("Curve_f46hw")
+scale_amount_min = 0.05
+scale_amount_max = 0.05
