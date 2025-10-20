@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://d2mn03uehhj7f"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_bl063"]
+lifetime_randomness = 0.5
+particle_flag_disable_z = true
+gravity = Vector3(0, 98, 0)
+
+[node name="Particle" type="GPUParticles2D"]
+explosiveness = 1.0
+process_material = SubResource("ParticleProcessMaterial_bl063")

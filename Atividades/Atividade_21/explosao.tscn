@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://cdh6y2acqg0tx"]
+
+[ext_resource type="Script" uid="uid://p7a7jlawxlup" path="res://Atividade_21/explosao.gd" id="1_rfex2"]
+[ext_resource type="Texture2D" uid="uid://b75k44mnste3t" path="res://Atividade_21/124266568-00790400-daec-11eb-8ba8-5d4bd009648d-removebg-preview (1).png" id="2_ogcu8"]
+
+[node name="Explosao" type="Node2D"]
+script = ExtResource("1_rfex2")
+
+[node name="Icon" type="Sprite2D" parent="."]
+self_modulate = Color(1, 0.121569, 0.0941176, 1)
+position = Vector2(517.375, 310.75)
+scale = Vector2(0.1625, 0.157)
+texture = ExtResource("2_ogcu8")
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
