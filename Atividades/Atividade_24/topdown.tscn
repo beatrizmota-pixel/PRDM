@@ -1,3 +1,4 @@
 [gd_scene format=3 uid="uid://cg8ptuqlh7oay"]
 
 [node name="Topdown" type="Node2D"]
+position = Vector2(-2, 0)
