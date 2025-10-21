@@ -8,8 +8,8 @@ script = ExtResource("1_rfex2")
 
 [node name="Icon" type="Sprite2D" parent="."]
 self_modulate = Color(1, 0.121569, 0.0941176, 1)
-position = Vector2(517.375, 310.75)
-scale = Vector2(0.1625, 0.157)
+position = Vector2(551, 286)
+scale = Vector2(0.0945, 0.0913015)
 texture = ExtResource("2_ogcu8")
 
 [node name="CPUParticles2D" type="CPUParticles2D" parent="."]
