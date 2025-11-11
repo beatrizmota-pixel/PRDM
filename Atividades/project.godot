@@ -13,3 +13,9 @@ config_version=5
 config/name="Entregas"
 run/main_scene="uid://24q5beio3tty"
 config/features=PackedStringArray("4.4", "Forward Plus")
+
+[display]
+
+window/size/viewport_width=480
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
