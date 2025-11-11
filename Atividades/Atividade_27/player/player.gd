@@ -25,8 +25,11 @@ func die():
 	$AnimatedSprite2D.animation = "hurt"
 	set_process(false)
 
-
-
-
-func _on_area_entered(area: Area2D) -> void:
-	pass # Replace with function body.
+func _on_area_entered(area):
+	if area.is_in_group("coins"):
+		area.pickup()
+		pickup.emit()
+	if area.is_in_group("obstacles"):
+		hurt.emit()
+		die()
+		
